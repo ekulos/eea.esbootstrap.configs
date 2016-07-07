@@ -1,3 +1,5 @@
 #!/bin/sh
-cd /code && git clone $github_repo config
+cd /code/config && git clone $github_repo . 
+
+
 chmod 777 config
